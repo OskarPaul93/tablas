@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabla del 3</title>
     <link rel="stylesheet" href="multplicar.css">
+    <script src="multiplicar.js"></script>
 </head>
 <body>
 
     <div class="contenedor">
-        <button class="btn-probar">PROBAR</button>
+        <button class="btn-probar" onclick="generarTabla()">PROBAR</button>
 
         <h1>🎈 Tabla del 3 🎈</h1>
 
@@ -20,7 +21,7 @@
                     <th>Resultado</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody class="tabla"id="contenedorTabla">
                 <tr><td>3 x 1</td><td>3</td></tr>
                 <tr><td>3 x 2</td><td>6</td></tr>
                 <tr><td>3 x 3</td><td>9</td></tr>
