@@ -1,6 +1,7 @@
 function generarTabla(){
     let contenedor = document.getElementById("contenedorTabla");
     let numero= parseInt(document.getElementById("numero").value);
+    document.getElementById("titulo").innerText = "🎈 Tabla del " + numero + " 🎈";
 
     let contenido = "";
 

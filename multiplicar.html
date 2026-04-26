@@ -11,12 +11,19 @@
 
     <div class="contenedor">
         <button class="btn-probar" onclick="generarTabla()">PROBAR</button>
+
+        <h2>📘 ¿Cómo usar?</h2>
+        <p class="instruccion">
+        Ingresa un número y presiona el botón <strong>PROBAR</strong> para ver su tabla de multiplicar del 1 al 10.
+        </p>
+
         <div class="grupo-input">
             <label for="numero">🔢 Escribe un número:</label>
             <input type="number" id="numero" placeholder="Ej: 3">
+            <small class="ayuda">Ejemplo: escribe 5 para ver la tabla del 5</small>
         </div>
 
-        <h1>🎈 Tabla de multiplicar 🎈</h1>
+        <h1 id="titulo">🎈 Tabla de multiplicar 🎈</h1>
 
         <table>
             <thead>
